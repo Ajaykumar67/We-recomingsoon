@@ -1,0 +1,130 @@
+@media only screen and (max-width: 1500px) and (min-width:800px) {
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+      #fle {
+        display: flex;
+      }
+      #mobileimage{
+        display: none;
+      }
+      #sideimage {
+        width: 40vw;
+        height: auto;
+      }
+      #main {
+        width: 130vw;
+        background-image: url(bg.svg);
+      }
+      #logo {
+        position: relative;
+        left: 10vw;
+        top: 5vh;
+        width: 15%;
+        height: auto;
+      }
+      .headings {
+        position: relative;
+        left: 10vw;
+        top: 15vh;
+        font-family: "Josefin Sans";
+        font-size: 4vw;
+        margin: 0px;
+      }
+      #heading1 {
+        color: hsl(0, 36%, 70%);
+        font-weight: 100;
+      }
+      div p {
+        position: relative;
+        left: 10vw;
+        top: 15vh;
+        width: 40vw;
+        font-size: 1.3vw;
+        font-family: "Josefin Sans";
+        color: hsl(0, 58%, 61%);
+      }
+      input[type="text"] {
+        width: 25vw;
+        height: 6vh;
+        border: 2px solid;
+        border-color: hsl(0, 93%, 68%);
+        border-radius: 30px;
+        position: relative;
+        left: 10vw;
+        top: 20vh;
+        font-size: 1.5vw;
+      }
+      input[type="submit"] {
+        color: white;
+        background-color:hsl(0, 100%, 92%);
+        position: relative;
+        top: 19.5vh;
+        left: 7vw;
+        width: 4vw;
+        height: 2.5vw;
+        border-style: none;
+        border-radius: 30px;
+      }
+    }
+    @media only screen and (max-width:800px){
+      body{
+        height: 150vh;
+      }
+      @import url("https://fonts.google.com/specimen/Josefin+Sans");
+    #sideimage {
+      display: none;
+    }
+    #logo{
+      margin: 7vw;
+      width: 30vw;
+      height: auto;
+    }
+    #mobileimage{
+      display: block;
+      width: 100vw;
+    }
+    .headings{
+      font-size: 8vw;
+      font-family: "Josefin Sans";
+    }
+    #heading1{
+      width: 35vw;
+      margin: auto;
+      font-weight: 100;
+      color:  hsl(0, 36%, 70%);
+    }
+    #heading2{
+      width: 45vw;
+     margin: auto;
+    }
+    #heading3{
+      width: 30vw;
+      margin: auto;
+    }
+   div p{
+    font-size: 3vw;
+    width: 100vw;
+    color: hsl(0, 58%, 61%);
+   }
+   input[type="text"]{
+    display: block;
+    width: 45vw;
+    height: 3vh;
+    margin: auto;
+    border: 1px solid;
+    border-color: hsl(0, 93%, 68%);
+    border-radius: 15px;
+   }
+   input[type="submit"]{
+    display: block;
+    width: 11vw;
+    margin: auto;
+    height: 3vh;
+    border-style: none;
+    background-color: hsl(0, 100%, 92%);
+    color: white;
+    border-radius: 12px;
+    position: relative;
+    bottom: 3.3vh;
+    left: 24vw;
+  }
+  }
